@@ -19,3 +19,9 @@ Kafelki mapy 2D (Blue Marble) dla aplikacji TIMPORYE — ostrzejszy obraz przy p
 
 Poziom 0 (4096 × 2048) jest w repo aplikacji. Odtworzenie: `python make_tiles.py <źródło.jpg> out/`
 (Pillow, WebP q72).
+
+## Bezpieczeństwo
+
+CI (`.github/workflows/security.yml`) skanuje historię gita na sekrety narzędziem gitleaks (każdy PR,
+push do `main`, co tydzień); Dependabot aktualizuje akcje GitHub. Podatności zgłaszaj prywatnie —
+zob. [SECURITY.md](SECURITY.md).
