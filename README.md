@@ -2,11 +2,16 @@
 
 [![Security](https://github.com/TomaszWu14/timporye-map-tiles/actions/workflows/security.yml/badge.svg?branch=main)](https://github.com/TomaszWu14/timporye-map-tiles/actions/workflows/security.yml)
 
+> **Zestaw historyczny (z1–z2).** TIMPORYE nie korzysta już z tego repo — kafelki (do z3) generuje
+> samodzielnie skryptem `scripts/make_map_tiles.py` do `frontend/public/globe/tiles` w repo aplikacji.
+
 Kafelki mapy 2D (Blue Marble) dla aplikacji TIMPORYE — ostrzejszy obraz przy przybliżeniu.
 Kafelki są w wydaniu [**v1**](https://github.com/TomaszWu14/timporye-map-tiles/releases/tag/v1)
 (plik `tiles.tar.gz`), a nie w samym repo — tu jest tylko skrypt, który je generuje.
 
-> **English summary.** Satellite map tiles (NASA Blue Marble) for the 2D world map in the TIMPORYE app,
+> **English summary.** *Historical z1–z2 set: TIMPORYE no longer uses this repo and now generates its own
+> tiles (up to z3) with `scripts/make_map_tiles.py` into `frontend/public/globe/tiles` in the app repo.*
+> Satellite map tiles (NASA Blue Marble) for the 2D world map in the TIMPORYE app,
 > giving a sharper image when zoomed in. The tiles are published as the `tiles.tar.gz` asset of release
 > [v1](https://github.com/TomaszWu14/timporye-map-tiles/releases/tag/v1); this repo holds only
 > `make_tiles.py`, which cuts the source image into a WebP tile pyramid.
